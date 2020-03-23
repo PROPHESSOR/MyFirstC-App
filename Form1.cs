@@ -13,6 +13,8 @@ namespace ПервыйБлинКомом
     {
         public Form1() {
             InitializeComponent();
+            cmb_curVer.Items.AddRange(versions);
+            cmb_nextVer.Items.AddRange(versions);
         }
 
         private string[] versions = { "1.0", "2.0", "3.0", "4.0", "5.0" };
